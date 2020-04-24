@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee422f6a-07a2-4c2f-b434-42aeceaeee21" name="Default Changelist" comment="" />
+    <list default="true" id="ee422f6a-07a2-4c2f-b434-42aeceaeee21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -28,14 +36,17 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1ar5gecakQ0HVlsnuvTX8TdCZ2c" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/scala/com/scala/spark/dataframe/learning" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -47,9 +58,9 @@
       <recent name="C:\Users\sagar\Desktop\SparkScala\src\main\scala\com\scala\spark\rdd\learning" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WordCount">
-    <configuration name="AvroFileFormat" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.scala.spark.dataframe.learning.AvroFileFormat" />
+  <component name="RunManager" selected="Application.MultipleSparkSessions">
+    <configuration name="DataFarmeLearning" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.scala.spark.dataframe.learning.DataFarmeLearning" />
       <module name="SparkScala" />
       <extension name="coverage">
         <pattern>
@@ -61,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BroadcastExample" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.scala.spark.rdd.learning.BroadcastExample" />
+    <configuration name="DataSources" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.scala.spark.datasources.learning.DataSources" />
       <module name="SparkScala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scala.spark.rdd.learning.*" />
+          <option name="PATTERN" value="com.scala.spark.datasources.learning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,8 +85,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataFrameOperations" type="Application" factoryName="Application" temporary="true">
+    <configuration name="MultipleSparkSessions" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.scala.spark.dataframe.learning.MultipleSparkSessions" />
+      <module name="SparkScala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scala.spark.dataframe.learning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkSql" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.scala.spark.dataframe.learning.SparkSql" />
       <module name="SparkScala" />
       <extension name="coverage">
         <pattern>
@@ -101,17 +125,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DataFrameOperations" />
-      <item itemvalue="Application.AvroFileFormat" />
-      <item itemvalue="Application.BroadcastExample" />
       <item itemvalue="Application.WordCount" />
+      <item itemvalue="Application.SparkSql" />
+      <item itemvalue="Application.DataFarmeLearning" />
+      <item itemvalue="Application.DataSources" />
+      <item itemvalue="Application.MultipleSparkSessions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultipleSparkSessions" />
+        <item itemvalue="Application.DataSources" />
+        <item itemvalue="Application.DataFarmeLearning" />
+        <item itemvalue="Application.SparkSql" />
         <item itemvalue="Application.WordCount" />
-        <item itemvalue="Application.BroadcastExample" />
-        <item itemvalue="Application.AvroFileFormat" />
-        <item itemvalue="Application.DataFrameOperations" />
       </list>
     </recent_temporary>
   </component>
@@ -137,10 +163,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587632446163" />
-    <state x="500" y="278" width="386" height="172" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1587485268834">
+    <state x="500" y="278" width="386" height="172" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1587738645160">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="500" y="278" width="386" height="172" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.0.1366.728@0.0.1366.728" timestamp="1587485268834" />
+    <state x="500" y="278" width="386" height="172" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.0.1366.728@0.0.1366.728" timestamp="1587738645160" />
     <state x="416" y="52" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1587483035298">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -149,22 +175,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587484392474" />
-    <state width="1323" height="432" key="GridCell.Tab.0.bottom" timestamp="1587712839985">
+    <state width="1323" height="432" key="GridCell.Tab.0.bottom" timestamp="1587739223204">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="432" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587712839985" />
-    <state width="1323" height="432" key="GridCell.Tab.0.center" timestamp="1587712839985">
+    <state width="1323" height="432" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587739223204" />
+    <state width="1323" height="432" key="GridCell.Tab.0.center" timestamp="1587739223204">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="432" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587712839985" />
-    <state width="1323" height="432" key="GridCell.Tab.0.left" timestamp="1587712839985">
+    <state width="1323" height="432" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587739223204" />
+    <state width="1323" height="432" key="GridCell.Tab.0.left" timestamp="1587739223203">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="432" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587712839985" />
-    <state width="1323" height="432" key="GridCell.Tab.0.right" timestamp="1587712839985">
+    <state width="1323" height="432" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587739223203" />
+    <state width="1323" height="432" key="GridCell.Tab.0.right" timestamp="1587739223204">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="432" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587712839985" />
+    <state width="1323" height="432" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587739223204" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1587485149209">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
